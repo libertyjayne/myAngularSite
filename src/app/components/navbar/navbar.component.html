@@ -1,0 +1,18 @@
+<header>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li><a [routerLink]="['#about-me']">About</a></li>
+        <li><a data-number="7" (click)="smoothScroll('testimonials')">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Testimonials</span>
+        </a></li>
+        <li><a (click)="smoothScroll('about-me')">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>

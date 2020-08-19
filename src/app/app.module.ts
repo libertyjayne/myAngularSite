@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { ComponentsComponent } from './components/components.component';
 
 const appRoutes: Routes = [
   { path: '', component: LandingComponent },
@@ -23,7 +25,9 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    NavbarComponent,
+    ComponentsComponent
   ],
   imports: [
     RouterModule.forRoot(
