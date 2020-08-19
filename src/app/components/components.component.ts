@@ -14,7 +14,7 @@ var easeInOutQuad = function (t, b, c, d) {
 @Component({
   selector: 'app-components',
   templateUrl: './components.component.html',
-  styleUrls: ['./components.component.css']
+  styleUrls: ['./components.component.scss']
 })
 export class ComponentsComponent implements OnInit {
 
