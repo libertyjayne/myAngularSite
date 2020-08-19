@@ -1,42 +1,39 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <!-- <nav class="navbar navbar-expand-lg navbar-light">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-                <a class="nav-link mr-lg-5 mr-3" href="#about-me">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mr-lg-5 mr-3" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mr-lg-5 mr-3" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </nav> -->
+    <header>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+          <ul>
+            <li><a href="#about-me">About</a></li>
+            <!-- <li><a data-number="7" (click)="smoothScroll('testimonials')">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Testimonials</span>
+            </a></li> -->
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
     <div id="content">
-        
         <div id="banner" class="jumbotron-fluid img-fluid background-img">
             <div class="container text-center">
                 <img src="/assets/img/name.png" alt="Liberty Jayne Failor" class="img-fluid">
-                <h2>Full-Stack Web Developer</h2>
+                <h1>Hello;</h1>
+                <p>I'm Libery. Full-stack Developer.
             </div>
         </div> 
   
         <div id="about-me" class="jumbotron jumbotron-fluid">
             <div class="container">
                 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-                    <!-- <a id="to-top" href="#banner" title="Go to top">
-                    <img src="img/arrow.png" alt"Top">
-                </a> -->
                 
-                <!-- <div class="clearfix"></div> -->
-                
-                <h1>Hello! I'm Liberty. Nice to meet you. </h1>
+                <h1>A little about me...</h1>
                 <p class="mt-4 lead">I'm a full-stack software engineer. When I'm not getting my thrills building software, I can be found playing roller derby, gardening, reading, traveling, and spending time with my three-legged pug mix.</p>
                     
-                <p class="lead">I'm most experienced in using MySQL, Django, Python, C#, and ASP.Net Core to create RESTful APIs on the backend, as well as Angular, JavaScript, and Bootstrap for dynamic and responsive front end views.</p> 
+                <p class="lead">I'm most experienced in using MySQL, Python, C#, and .Net Core to create RESTful APIs on the backend, as well as Angular, JavaScript, and Bootstrap for dynamic and responsive front end views.</p> 
                     
                 <p class="lead">Feel free to reach out! I am always available and excited to chat about tech, dogs, travel destinations, or just to say hello!</p>
                 <div class="text-center pt-5">
@@ -52,7 +49,7 @@
   
         <div id="skills" class="jumbotron jumbotron-fluid mb-0">
             <div class="container">
-                <h1 class="mb-4">Skills</h1>
+                <h1 class="mb-4">My Skills</h1>
                 <div class="text-center">
                     <img class="m-5 skill-icon" src="/assets/img/bootstrap.png" alt="Bootstrap" data-toggle="popover" title="Resume">
                     <img class="m-5 skill-icon" src="/assets/img/ajax.png" alt="Ajax" data-toggle="popover" title="Ajax">
