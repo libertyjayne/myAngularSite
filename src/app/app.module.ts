@@ -1,15 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ComponentsComponent } from './components/components.component';
 
-const appRoutes: Routes = [
-  { path: '', component: ComponentsComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full' }
-];
 
 @NgModule({
   declarations: [
@@ -18,11 +16,9 @@ const appRoutes: Routes = [
     ComponentsComponent
   ],
   imports: [
-    RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
-    ),
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
