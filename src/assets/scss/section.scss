@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+.section {
+    width: 100%;
+    padding-top: 5rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    .section {
+        max-width: 700px;
+    }
+}
+// @media (min-width: 576px) {
+
+//     .section {
+//         max-width: 540px;
+//     }
+// }
+
+// @media (min-width: 768px){
+
+//     .section {
+//         max-width: 720px;
+//     }
+// }
+
+// @media (min-width: 992px){
+//     .section {
+//         max-width: 83.333333%;
+//     }
+// }
+// @media (min-width: 1200px){
+//     .section {
+//         max-width: 1140px;
+//     }
+// }
+
+

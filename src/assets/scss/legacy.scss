@@ -17,10 +17,7 @@
     .proj-img {
         text-align: center;
     }
-    .hob-img {
-        width: 50%;
-        margin-bottom: 30px;
-    }
+    
 }
 @media (min-width: 768px){
     #banner img {
@@ -40,19 +37,7 @@
     .proj-row {
         height: 28rem;
     }
-    .parallax { 
-        height: 24rem; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-        #about-me + div { 
-            background-image: url("/assets/img/waves.png");
-        }
-        #skills + div { 
-            background-image: url("/assets/img/pink_flowers.png");
-        }                                                                                                    
+                                                                                                  
 }
 @media (max-width: 576px){
     #banner img {
@@ -71,10 +56,6 @@
     #skills img {
         width: 50%;
     }
-    .hob-img {
-        width: 50%;
-        margin-bottom: 10px;
-    }
     
 }
 @media (min-width: 992px){
@@ -88,25 +69,11 @@
     #banner h2 {
         font-size: 2.5rem;
     }
-    .hob-img {
-        width: 25%;
-    }
+
     .proj-row {
         height: 28rem;
     }
-    .parallax { 
-        height: 24rem; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #about-me + div { 
-        background-image: url("/assets/img/waves.png");
-    }
-    #skills + div { 
-        background-image: url("/assets/img/pink_flowers.png");
-    }
+    
 }
 @media (min-width: 1200px){
     #banner img {
@@ -119,25 +86,11 @@
     #banner h2 {
         font-size: 2.5rem;
     }
-    .hob-img {
-        width: 25%;
-    }
+  
     .proj-row {
         height: 28rem;
     }
-    .parallax { 
-        height: 24rem; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #about-me + div { 
-        background-image: url("/assets/img/waves.png");
-    }
-    #skills + div { 
-        background-image: url("/assets/img/pink_flowers.png");
-    }
+    
 } 
 
 /* Banner Section */
