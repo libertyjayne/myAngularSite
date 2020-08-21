@@ -10,11 +10,16 @@
     margin-left: auto;
     margin-bottom: 2rem;
     margin-top: 1rem;
+
+    .color-bkg {
+        background-image: linear-gradient($light-pink, $dark-pink);
+        opacity: 95%;
+    }
 }
 
 @media screen and (min-width: 800px) {
     .section {
-        max-width: 865px;;
+        max-width: 865px;
     }
 }
 // @media (min-width: 576px) {
