@@ -11,10 +11,12 @@ nav {
     transform-origin: top;
     transition: transform 400ms ease-in-out;
     height: 70px;
+    // opacity: 90%;
 }
 
 header {
   background: $background;
+  opacity: 98%;
   text-align: center;
   position: fixed;
   z-index: 999;
@@ -23,7 +25,7 @@ header {
   padding: .5em;
   display: flex !important;
   align-items: center;
-  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -76,6 +78,7 @@ nav ul {
   list-style: none;
   background-color:  $background;
   padding-bottom: 7px;
+  opacity: 99%;
 }
 
 nav li {

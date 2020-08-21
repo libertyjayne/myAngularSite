@@ -1,6 +1,4 @@
-#content {
-    padding-top: 70px;
-}
+
 
 .jumbotron-fluid h1 {
     text-align: center;
@@ -30,8 +28,6 @@
                                                                                                   
 }
 @media (max-width: 576px){
-
-
     .proj-img {
         text-align: center;
     }
@@ -39,20 +35,16 @@
     #skills img {
         width: 50%;
     }
-    
 }
 @media (min-width: 992px){
-
     .skill-icon {
         width: 125px;
     }
-
-
     .proj-row {
         height: 28rem;
     }
-    
 }
+
 @media (min-width: 1200px){
 
     .skill-icon {
@@ -62,15 +54,6 @@
         height: 28rem;
     }
 } 
-
-
-/* About Me Section */
-#about-me {
-    background-color: white;
-}
-#about-me h1 {
-    text-align: left;
-}
 
 /*Project Section*/
 #projects {
