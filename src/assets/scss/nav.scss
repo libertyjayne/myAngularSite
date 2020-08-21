@@ -11,7 +11,6 @@ nav {
     transform-origin: top;
     transition: transform 400ms ease-in-out;
     height: 70px;
-    // opacity: 90%;
 }
 
 header {
@@ -28,14 +27,12 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 /* Gains focus and allows tabs */
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
   left: -9999px !important;
 }
-
 
 .nav-toggle-label {
   position: absolute;
@@ -75,6 +72,7 @@ header {
 nav ul {
   margin: 0;
   padding: 0;
+  padding-left: 1rem;
   list-style: none;
   background-color:  $background;
   padding-bottom: 7px;
@@ -83,7 +81,6 @@ nav ul {
 
 nav li {
   margin-bottom: 1em;
-  margin-left: 1em;
 }
 
 nav a {
@@ -109,13 +106,13 @@ nav a:hover {
 }
 
 @media screen and (min-width: 800px) {
+
+  header {
+    justify-content: center;
+  }
   .nav-toggle-label {
     display: none;
   }
-
-  // header {
-  //   display: grid;
-  // }
  
   nav {
     all: unset; /* this causes issues with Edge, since it's unsupported */
@@ -129,22 +126,20 @@ nav a:hover {
     top: initial;
     left: initial;
     /* End Edge support stuff */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    width: 865px;
+    padding-right: 1rem;
   }
   
   nav ul {
     display: flex;
-    padding-right: 25px;
-    width: 100%;
-    justify-content: space-evenly;
-    padding-bottom: 7px;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
   
   nav li {
-    margin-left: 3em;
+   
     margin-bottom: 0;
   }
   
