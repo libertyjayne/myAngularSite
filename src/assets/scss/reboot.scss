@@ -26,7 +26,8 @@
 }
 
 html {
-  font-family: sans-serif; // 2
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.25rem;
   line-height: 1.15; // 3
   -webkit-text-size-adjust: 100%; // 4
   -ms-text-size-adjust: 100%; // 4
@@ -147,6 +148,9 @@ ul ol {
   margin-bottom: 0;
 }
 
+li {
+  display: inherit;
+}
 // dt {
 //   font-weight: $dt-font-weight;
 // }
