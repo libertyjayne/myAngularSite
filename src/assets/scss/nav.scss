@@ -1,4 +1,5 @@
 @import './variables.scss';
+$background: $teal;
 
 nav {
     position: absolute;
@@ -13,7 +14,7 @@ nav {
 }
 
 header {
-  background: $dark-purple;
+  background: $background;
   text-align: center;
   position: fixed;
   z-index: 999;
@@ -22,6 +23,7 @@ header {
   padding: .5em;
   display: flex !important;
   align-items: center;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -72,7 +74,7 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color:  $dark-purple;
+  background-color:  $background;
   padding-bottom: 7px;
 }
 

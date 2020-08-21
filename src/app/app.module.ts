@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ComponentsComponent } from './components/components.component';
 import { AboutComponent } from './components/about/about.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AboutComponent } from './components/about/about.component';
     AppComponent,
     ComponentsComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

@@ -7,23 +7,15 @@
 }
 /* Medida Queries */
 @media (min-width: 576px){
-    #banner img {
-        max-width: 100%;
-        margin-top: 155px; 
-    } 
-    #banner h2{
-        font-size: 1.25rem;
-    } 
+     
+   
     .proj-img {
         text-align: center;
     }
     
 }
 @media (min-width: 768px){
-    #banner img {
-        max-width: 100%;
-        margin-top: 155px;
-    } 
+
     .skill-icon {
         width: 132px;
     }
@@ -31,44 +23,30 @@
         margin-top: 1.3rem;
         vertical-align: middle;
     }
-    .hob-img {
-        width: 50%;
-    }
+
     .proj-row {
         height: 28rem;
     }
                                                                                                   
 }
 @media (max-width: 576px){
-    #banner img {
-        max-width: 100%;
-        margin-top: 155px; 
-    } 
-    #banner h2 {
-        font-size: 1.25rem;
-    } 
+
+
     .proj-img {
         text-align: center;
     }
-    /* .proj-row {
-        text-align: justify; 
-    } */
+ 
     #skills img {
         width: 50%;
     }
     
 }
 @media (min-width: 992px){
-    #banner img {
-        max-width: 100%;
-        margin-top: 0;
-    } 
+
     .skill-icon {
         width: 125px;
     }
-    #banner h2 {
-        font-size: 2.5rem;
-    }
+
 
     .proj-row {
         height: 28rem;
@@ -76,62 +54,16 @@
     
 }
 @media (min-width: 1200px){
-    #banner img {
-        max-width: 100%;
-        margin-top: 0;
-    } 
+
     .skill-icon {
         width: 125px;
     }
-    #banner h2 {
-        font-size: 2.5rem;
-    }
-  
     .proj-row {
         height: 28rem;
     }
-    
 } 
 
-/* Banner Section */
-#banner {
-    padding-top: 18%;
-    height: 110vh!important;
-    color: white; 
-}
-.background-img {
-    background: url('/assets/img/mnrdB5l.png');
-    background-size: cover;
-}
-#banner h2 {
-    padding-top: 20px;
-    font-weight: 400;
-}
-#to-top {
-    float: right;
-}
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-}
-#myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-}
-#to-top img {
-    width: 40px;
-    /* scale: -5 or 0; */
-}
+
 /* About Me Section */
 #about-me {
     background-color: white;
