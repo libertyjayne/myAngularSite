@@ -1,2 +1,26 @@
 @import './variables.scss';
 
+#projects {
+    .section {
+        
+        .card {
+            width: 100%;
+            padding: 0;
+            position: relative;
+            // box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+            color: black;
+            line-height: 1.5;
+        }
+
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    #projects {
+    .cards {
+
+        flex-direction: column !important;
+    }
+
+}}

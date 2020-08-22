@@ -1,65 +1,4 @@
 
-
-.jumbotron-fluid h1 {
-    text-align: center;
-}
-/* Medida Queries */
-@media (min-width: 576px){
-     
-   
-    .proj-img {
-        text-align: center;
-    }
-    
-}
-@media (min-width: 768px){
-
-    .skill-icon {
-        width: 132px;
-    }
-    .proj-img {
-        margin-top: 1.3rem;
-        vertical-align: middle;
-    }
-
-    .proj-row {
-        height: 28rem;
-    }
-                                                                                                  
-}
-@media (max-width: 576px){
-    .proj-img {
-        text-align: center;
-    }
- 
-    #skills img {
-        width: 50%;
-    }
-}
-@media (min-width: 992px){
-    .skill-icon {
-        width: 125px;
-    }
-    .proj-row {
-        height: 28rem;
-    }
-}
-
-@media (min-width: 1200px){
-
-    .skill-icon {
-        width: 125px;
-    }
-    .proj-row {
-        height: 28rem;
-    }
-} 
-
-/*Project Section*/
-#projects {
-    background-color: white; 
-    margin-bottom: 20px; 
-}
 .proj-row {
     box-shadow: 5px 5px 20px grey;
     padding: 17px;
@@ -70,25 +9,27 @@
     position: inherit;
     /* min-height: 400px; */
 }
-.proj-icon {
-    width: 12%;
-}
+
 .proj-img img{
     width: 90%;
     box-shadow: 3px 3px 20px grey;
     margin: auto auto;
     border-radius: 10px;
 }
-/* Contact Section */
-.contact-icons {
-    width: 50%;
-    margin: auto;
-    margin-top: 40px;
+.proj-img {
     text-align: center;
 }
-.contact-icons img {
-    width: 75px;
+    
+@media (min-width: 768px){
+    .proj-img {
+        margin-top: 1.3rem;
+        vertical-align: middle;
+    }
+
+    .proj-row {
+        height: 28rem;
+    }
+                                                                                                  
 }
-.contact-icons > * {
-    position: inherit;
-}
+
+
