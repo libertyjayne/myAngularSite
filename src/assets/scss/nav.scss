@@ -30,11 +30,11 @@ nav ul {
   align-items: center;
 
   list-style: none;
-
 }
 
 nav li {
   margin-bottom: 1em;
+  cursor: pointer;
 }
 
 nav a {
@@ -42,78 +42,15 @@ nav a {
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
-  // opacity: 0;
-  // transition: opacity 150ms ease-in-out;
 }
 
 nav a:hover {
   color: $nav-hover;
 }
 
-// .nav-toggle:checked ~ nav {
-//   transform: scale(1,1);
-// }
-
-// .nav-toggle:checked ~ nav a {
-//   opacity: 1;
-//   transition: opacity 250ms ease-in-out 250ms;
-// }
 
 @media screen and (min-width: 800px) {
 
-  // header {
-  //   justify-content: center;
-  // }
-  // .nav-toggle-label {
-  //   display: none;
-  // }
- 
-  // nav {
-  //   all: unset; /* this causes issues with Edge, since it's unsupported */
-    
-  //   /* Add Edge support */
-  //   position: relative;
-  //   text-align: left;
-  //   transition: none;
-  //   transform: scale(1,1);
-  //   background: none;
-  //   top: initial;
-  //   left: initial;
-  //   /* End Edge support stuff */
-
-  //   width: 865px;
-  //   padding-right: 1rem;
-  // }
-  
-  // nav ul {
-  //   display: flex;
-  //   justify-content: space-between;
-  //   padding-right: 1rem;
-  //   padding-left: 1rem;
-  // }
-  
-  // nav li {
-   
-  //   margin-bottom: 0;
-  // }
-  
-  // nav a {
-  //   opacity: 1;
-  //   position: relative;
-  // }
-  
-  // nav a::before {
-  //   content: '';
-  //   display: block;
-  //   height: 5px;
-  //   background: black;
-  //   position: absolute;
-  //   top: -.75em;
-  //   left: 0;
-  //   right: 0;
-  //   transform: scale(0, 1);
-  //   transition: transform ease-in-out 250ms;
-  // }
   
 }
 

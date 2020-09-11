@@ -1,9 +1,18 @@
 @import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+$script: 'Over the Rainbow', cursive;
+$font: 'Open Sans', sans-serif;
 * {
-    font-family: 'Dosis', sans-serif;
-}
+    // font-size: 1.25rem;
+    font-family: $font;
+  }
+  h1 {
+    font-family: $script;
+  }
 
-body {
-    font-size: 1.25rem;
-}
+  p {
+    line-height: 2;
+    font-size: 1.25;
+  }

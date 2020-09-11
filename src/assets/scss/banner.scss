@@ -9,13 +9,15 @@
     justify-content: center;
 
     div {
-        width: 24rem;
-        height: 20rem;
-        font-size: 1.75rem;
+        width: 35rem;
+        height: 21rem;
+
+        //Flexbox
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
+
         // box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background: white;
         // color: $light-font;
@@ -24,10 +26,24 @@
         // border-radius: $radius;
       }
 
-    h1 {
-        font-size: 5rem;
+    h2 {
+      margin-top: 4rem;
     }
 }
+@media screen and (min-width: 800px) {
+  #banner {
+    div {
+      width: 59rem;
+      height: 33rem;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
 
-
+  }
+  
+}
 

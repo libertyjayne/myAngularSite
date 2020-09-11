@@ -9,16 +9,14 @@
 
   height: 12em;
   box-shadow: $shadow;
-  background-color: white;
   text-align: center;
   margin-bottom: 3rem;
   padding: 2rem;
-  z-index: 1;
   border: 0;
   border-radius: 0!important;
 
-  h3 {
-    font-weight: bold;
+  h2 {
+    margin-bottom: 1.5rem;
   }
 }
 
