@@ -21,7 +21,6 @@ export class ComponentsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    let navUl = document.getElementById('');
   }
   smoothScroll(target) {
     var targetScroll = document.getElementById(target);
