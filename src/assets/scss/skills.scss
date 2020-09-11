@@ -2,51 +2,33 @@
 
 #skills {
 
-  .card {
-      width: 16rem;
-      height: 20rem;
-      position: relative;
-      // box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
-      color: black;
-      line-height: 1.5;
+.card {
+    width: 16rem;
+    height: 20rem;
+    position: relative;
+    color: black;
+    line-height: 1.5;
 
-      ul {
-          padding-left: 0;
-          margin-bottom: 0 !important;
-      }
-      
-      
+    ul {
+      padding-left: 0;
+      margin-bottom: 0 !important;
+    }
   }
-  // .card:before {
-  // background-image: url(http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png);
-  // background-position: center bottom;
-  // background-repeat: no-repeat;
-  // background-size: 100% 100%;
-  // bottom: -12%;
-  // content: "";
-  // display: block;
-  // left: -12%;
-  // position: absolute;
-  // right: 0;
-  // top: 0;
-  // z-index: 0;
-  // }
+
   #languages {
-      // background-image: linear-gradient($turqoise, $green);
-      background: $light-turq;
+    // background-image: linear-gradient($turqoise, $green);
+    background: $light-turq;
   }
 
   #framework {
-      // background-image: linear-gradient($light-pink, $dark-pink);
-      // background: $light-pink;
-      background: $med-pink;
+    // background-image: linear-gradient($light-pink, $dark-pink);
+    // background: $light-pink;
+    background: $med-pink;
   }
 
   #other {
-      // background-image: linear-gradient($light-purple, $dark-purple);
-      // background: $light-purple;
-      background: $light-purple;
+    // background-image: linear-gradient($light-purple, $dark-purple);
+    // background: $light-purple;
+    background: $light-purple;
   }
-    
-
 }
