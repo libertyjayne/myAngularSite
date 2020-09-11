@@ -1,33 +1,39 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <header>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <nav>
-          <ul>
-            <li><a (click)="smoothScroll('about-me')">
-                <span>About</span>
-            </a></li>
-            <li><a (click)="smoothScroll('skills')">
-                <span>Skills</span>
-            </a></li>
-            <li><a (click)="smoothScroll('projects')">
-                <span>Projects</span>
-            </a></li>
-            <li><a (click)="smoothScroll('contact')">
-                <span>Contact</span>
-            </a></li>
-          </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-        </label>
-      </header>
+  <header>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <!-- To Do - Audit A11y -->
+      <ul>
+        <li><a (click)="smoothScroll('about-me')"
+          aria-label="About section" focusable="true">
+            <span>About</span>
+        </a></li>
+        <li><a
+          aria-haspopup="true"
+         aria-expanded="false">
+            Test
+        </a></li>
+        <li><a (click)="smoothScroll('skills')">
+            <span>Skills</span>
+        </a></li>
+        <li><a (click)="smoothScroll('projects')">
+            <span>Projects</span>
+        </a></li>
+        <li><a (click)="smoothScroll('contact')">
+            <span>Contact</span>
+        </a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
 
-    <div id="content">
-        <app-banner></app-banner>
-        <app-about></app-about>
-        <app-skills></app-skills>
-        <app-projects></app-projects>
-        <app-contact></app-contact>
-    </div>
-
-  
+  <main id="content">
+      <app-banner></app-banner>
+      <app-about></app-about>
+      <app-skills></app-skills>
+      <app-projects></app-projects>
+      <app-contact></app-contact>
+  </main>
+</body>

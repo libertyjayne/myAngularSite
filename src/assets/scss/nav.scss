@@ -1,16 +1,18 @@
 @import './variables.scss';
-$background: $teal;
+$background: $main-color;
+$nav-font-color: black;
+$nav-hover: $teal;
 
 nav {
-    position: absolute;
-    text-align: left;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    transform: scale(1, 0);
-    transform-origin: top;
-    transition: transform 400ms ease-in-out;
-    height: 70px;
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+  height: 70px;
 }
 
 header {
@@ -48,7 +50,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: white;
+  background: $nav-font-color;
   height: 2px;
   width: 2em;
   border-radius: 2px;
@@ -84,7 +86,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: $nav-font-color;
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -93,7 +95,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
+  color: $nav-hover;
 }
 
 .nav-toggle:checked ~ nav {

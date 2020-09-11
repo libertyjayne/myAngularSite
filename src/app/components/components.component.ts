@@ -21,12 +21,13 @@ export class ComponentsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    let navUl = document.getElementById('');
   }
   smoothScroll(target) {
     var targetScroll = document.getElementById(target);
     this.scrollTo(document.scrollingElement || document.documentElement, targetScroll.offsetTop, 1250);
-}
-scrollTo(element, to, duration) {
+  }
+  scrollTo(element, to, duration) {
     var start = element.scrollTop,
         change = to - start,
         currentTime = 0,
@@ -41,6 +42,7 @@ scrollTo(element, to, duration) {
         }
     };
     animateScroll();
-}
+
+  }
 
 }
