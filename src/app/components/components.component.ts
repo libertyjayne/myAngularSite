@@ -43,7 +43,5 @@ export class ComponentsComponent implements OnInit {
         }
     };
     animateScroll();
-
   }
-
 }

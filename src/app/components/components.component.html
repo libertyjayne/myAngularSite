@@ -1,27 +1,22 @@
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <header>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <nav>
+  
       <!-- To Do - Audit A11y -->
       <ul>
-        <li><a (click)="smoothScroll('about-me')"
-          aria-label="About section" focusable="true">
-            <span>About</span>
+        <li><a (click)="smoothScroll('about-me')">
+            About
         </a></li>
         <li><a (click)="smoothScroll('skills')">
-            <span>Skills</span>
+            Skills
         </a></li>
         <li><a (click)="smoothScroll('projects')">
-            <span>Projects</span>
+            Projects
         </a></li>
         <li><a (click)="smoothScroll('contact')">
-            <span>Contact</span>
+            Contact
         </a></li>
       </ul>
     </nav>
-    <label for="nav-toggle" class="nav-toggle-label">
-      <span></span>
-    </label>
   </header>
 
   <main id="content">
@@ -31,4 +26,3 @@
       <app-projects></app-projects>
       <app-contact></app-contact>
   </main>
-</body>
