@@ -26,7 +26,7 @@ export class ComponentsComponent implements OnInit {
     var targetScroll = document.getElementById(target);
     this.scrollTo(document.scrollingElement || document.documentElement, targetScroll.offsetTop, 1250);
     let nav = document.getElementsByClassName('nav-toggle')[0];
-    nav.click();
+    // nav.click();
   }
   scrollTo(element, to, duration) {
     var start = element.scrollTop,
