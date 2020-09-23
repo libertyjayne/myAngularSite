@@ -2,7 +2,7 @@
 
 #banner {
     height: 110vh!important;
-    background: url('/assets/img/background.jpg');
+    background: url('/assets/img/background.png');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -33,8 +33,8 @@
 @media screen and (min-width: 800px) {
   #banner {
     div {
-      width: 59rem;
-      height: 33rem;
+      width: 54rem;
+      height: 28rem;
     }
     h1 {
       font-size: 4rem;
