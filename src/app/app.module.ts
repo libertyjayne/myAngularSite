@@ -13,6 +13,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ResumeComponent } from './pages/resume/resume.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ContactComponent } from './components/contact/contact.component';
     BannerComponent,
     SkillsComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
